@@ -7,7 +7,7 @@ let package = Package(
     name: "CStack",
     pkgConfig: "cstack",
     providers: [
-        .brew(["vapor/tap/cstack"]),
+        .brew(["vapor", "tap", "cstack"]),
         .apt(["cstack"])
     ],
     products: [
